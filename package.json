@@ -31,6 +31,6 @@
     "node": ">=0.8.2"
   },
   "scripts": {
-    "start": "node tiddlywiki.js"
+    "start": "node tiddlywiki.js jamnic --init server | node tiddlywiki.js jamnic --server"
   }
 }
